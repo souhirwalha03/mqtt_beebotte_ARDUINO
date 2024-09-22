@@ -2,7 +2,8 @@
 #define BEEBOTTE_H
 
 #include <stdint.h>
+#include "rc522.h" 
 
-void beebotte();
+void beebotte( rc522_handle_t scanner);
 
-#endif /* IOT_HUB_RIFD_H */
+#endif 
